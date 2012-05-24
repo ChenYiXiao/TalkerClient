@@ -5,7 +5,6 @@ import android.R.color;
 import android.app.ActivityGroup;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
-import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -33,7 +32,9 @@ public class ActMain extends ActivityGroup {
     		R.drawable.buttombar_system };  //底部导航栏的图标集
   
 
-    @Override  
+
+
+	@Override  
     public boolean onKeyDown(int keyCode, KeyEvent event) {   
           
         if(keyCode==KeyEvent.KEYCODE_MENU) {   
